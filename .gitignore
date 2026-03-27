@@ -26,6 +26,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pi/env/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -46,6 +47,6 @@ Thumbs.db
 *.h5
 *.joblib
 
-# Data files (optional - uncomment if you don't want to track data)
-# *.csv
-# *.arff
+# Large data files
+pi/Data5G/train_test_network.csv
+pi/streamlit_app/models/*.pkl
